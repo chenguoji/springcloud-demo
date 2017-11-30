@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.chen.demo</groupId>
+	<artifactId>springcloud</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<modules>
+		<module>demo-eureka</module>
+		<module>demo-client</module>
+    <module>demo-consumer</module>
+    <module>demo-consumer-ribbon</module>
+    <module>demo-consumer-feign</module>
+    <module>demo-config</module>
+    <module>demo-config-client</module>
+    <module>demo-consumer-ribbon-hystrix</module>
+    <module>demo-hystrix-dashboard</module>
+  </modules>
+	
+</project>

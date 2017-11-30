@@ -1,0 +1,4 @@
+
+demo-client/.classpath
+demo-consumer/target/classes/application.yml
+demo-consumer/src/test/java/org/demo/consumer/AppTest.java
